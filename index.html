@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <title>Paolo's portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+  </head>
+
+  <body>
+    <!-- Here is our main header that is used across all the pages of our website -->
+    <header class="header">
+      <div class="header__inner">
+        <img class="header__logo" src="img/logo.png" alt="Udacity logo">
+        <div class="header__titles">
+          <h1 class="header__title">
+            Paolo Genissel
+          </h1>
+          <h2 class="header__subtitle">
+            Data Engineer
+          </h2>
+        </div>
+        <div class="header__border"></div>
+      </div>
+    </header>
+    <!-- Here is our page's main content -->
+    <main>
+      <img id="pipeline__img" src="img/pipeline.jpeg" alt="Here's what Big Data looks like">
+      <!-- Career Section -->
+      <section class="resume">
+        <h3 class="section__titles">
+          Career
+        </h3>
+        <ul class="content_list">
+          <li class="content__item">
+            <div class="content__wrapper">
+              <img class="content__image" src="img/numberly.png" alt="Numberly">
+              <div class="content__time">2015 - now</div>
+              <div class="content__title">Data Engineer</div>
+            </div>
+          </li>
+          <li class="content__item">
+            <div class="content__wrapper">
+              <img class="content__image" src="img/alten.png" alt="Alten">
+              <div class="content__time">2015</div>
+              <div class="content__title">Big Data Intern</div>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <!-- Projects Section -->
+      <section class="project__section">
+        <h3 class="section__titles">
+          Featured Work
+        </h3>
+        <ul class="content_list">
+          <li class="content__item projects">
+            <div class="content__wrapper project__wrapper">
+              <img class="project__image" src="img/zeppelin.png" alt="Zeppelin">
+              <div class="project__title">Zeppelin</div>
+              <a href="https://github.com/gfalcone/zeppelin" class="position__item__url">https://github.com/gfalcone/zeppelin</a>
+            </div>
+          </li>
+          <li class="content__item projects loganalysis">
+            <div class="content__wrapper project__wrapper">
+              <img class="project__image" src="img/loganalysis.png" alt="LogAnalysis">
+              <div class="project__title">LogAnalysis</div>
+              <a href="https://github.com/gfalcone/LogAnalysis" class="position__item__url">https://github.com/gfalcone/LogAnalysis</a>
+            </div>
+          </li>
+          <li class="content__item projects">
+            <div class="content__wrapper project__wrapper">
+              <img class="project__image" src="img/airflow.png" alt="Airflow">
+              <div class="project__title">Airflow</div>
+              <a href="https://github.com/gfalcone/incubator-airflow" class="position__item__url">https://github.com/gfalcone/incubator-airflow</a>
+            </div>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <!-- And here is our main footer that is used across all the pages of our website -->
+    <footer>
+      <h3 class="section__titles">
+        Follow me
+      </h3>
+      <nav class="network">
+        <ul class="network__site">
+          <li class="network__site__link"><a href="https://github.com/gfalcone/">Github</a></li>
+          <li class="network__site__link"><a href="https://www.linkedin.com/in/paolo-genissel-186bb063/">Linkedin</a></li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
+</html>
