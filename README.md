@@ -5,9 +5,9 @@ This project is an HTML/CSS portfolio that displays my career and projects I hav
 ## structure
 
 The project is structured as followed : 
-	- css : folder for css sheets (the main one style.css, the other one for media queries)
-	- img : for website images
-	- index.html : the main page
+* css : folder for css sheets (the main one style.css, the other one for media queries)
+* img : for website images
+* index.html : the main page
 
 ## how to run it
 
